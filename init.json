@@ -1,0 +1,9 @@
+{
+    "client": {
+        "label": "Dinero Full",
+        "success_message": "Cirenio analizará tu informe y nos pondremos en contacto durante las próximas 24hs."
+    },
+    "task": {
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJoYXNoIjoiMTQ1ZmUzMjc0M2E0YjM5ZmQ0MTQ0OWRmMTViNTJmOTY4NjVlMWI3MTVkOGU0OTM5MWRlMGY3YjAzN2U5ZDVmMyIsImNsaWVudCI6MiwidmFsaWQiOiIyMDIyLTEwLTEwIn0.-j7fcWSMyXffmFrLYLDn4AuMvQKMvjxqs2r4Pcn4Zi0"
+    }
+}

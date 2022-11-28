@@ -1,0 +1,111 @@
+<div class="widget-demo__steps__box__steps">
+    <a href="#" class="back-btn" title="Volver atras">
+        <img src="img/back.svg" alt="Flecha atras">
+    </a>
+    <div class="progresses step-3">
+        <div class="steps">
+            <span class="font-weight-bold">1</span>
+            <svg width="11" height="9" viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 4.875L4.13043 7.5L10 1.5" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+        <div class="steps">
+            <span class="font-weight-bold">2</span>
+            <svg width="11" height="9" viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 4.875L4.13043 7.5L10 1.5" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+        <div class="steps">
+            <span class="font-weight-bold">3</span>
+            <svg width="11" height="9" viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 4.875L4.13043 7.5L10 1.5" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+    </div>
+</div>
+<div class="middle-content">
+    <div class="vertical-center justify-content-center p-0">
+        <div class="widget-demo__steps__box__img d-flex justify-content-center mb-15 pr-3rem">
+            <img id="bank_logo">
+        </div>
+        <div class="widget-demo__steps__box__title mb-28 pr-3rem">
+            <p class="subtitle large mb-0">Ingresa tus datos para conectar a <strong>tu cuenta de homebanking</strong> de Santender.</p>
+        </div>
+        <div class="widget-demo__steps__box-input mb-28 pr-3rem">
+            <form action="" id="login_bank">
+                <div class="row m-0">
+                    <div id="fieldsets"></div>
+                    <div class="col-12 mb-28">
+                        <div class="row justify-content-end justify-content-sm-beteen">
+                            <div class="col-6 d-flex justify-content-start p-0 d-none d-sm-flex">
+                                <a href="#!" class="link-icon keyboard">Teclado virtual</a>
+                            </div>
+                            <div class="col-6 d-flex justify-content-end p-0">
+                                <a href="#!"class="link-icon">Olvidé mi clave / usuario</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="errors" class="alert alert-danger d-flex d-none" role="alert">
+                        <div class="d-flex align-items-start">
+                            <img src="img/danger.svg" alt="Error">
+                        </div>
+                        <div>
+                            <h2>Se ha bloqueado tu clave por superar los 3 intentos de ingreso.</h2>
+                            <p>Para continuar tienes que desbloquear tu clave ingresando al <a href="#!">sitio de Santander</a>.</p>
+                        </div>
+                    </div>
+                    <div class="alert alert-warning d-flex d-none" role="alert" id="errors_form">
+                        <div class="d-flex align-items-start">
+                            <img src="img/info.svg" alt="Error">
+                        </div>
+                        <div>
+                            <h2 id="errors_form_title">Olvidó completar el nombre de usuario</h2>
+                            <p id="errors_form_text">Complete el campo faltante.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 mb-28 d-flex justify-content-center">
+                        <button type="submit" class="btn btn-primary">Conectar</button>
+                    </div>
+                    <div class="content-protect-data" onclick="toggleInfo(this)">
+                        <div class="content-protect-data__header">
+                            <div class="content-protect-data__header__icon">
+                                <img src="img/lock.svg" alt="">
+                            </div>
+                            <h2>¿Cómo protegemos tus datos?</h2>
+                            <div class="content-protect-data__header__icon">
+                                <a href="#!" class="toggle-info" title="Desplegar información">Desplegar/plegar</a>
+                            </div>
+                        </div>
+                        <div class="content-protect-data__body">
+                            <ul class="check_list">
+                                <li>
+                                    <div class="check_list__content">
+                                        <div class="check_list__check">
+                                            <div class="circle-check">
+                                                <img src="img/check_icon.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div>Tus datos de ingreso <strong>NO</strong> serán compartidos con nadie.</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="check_list__content">
+                                        <div class="check_list__check">
+                                            <div class="circle-check">
+                                                <img src="img/check_icon.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div>Nuestro compromiso es tu seguridad por eso usamos <strong>tecnología de encriptación.</strong></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="widget-demo__steps__box__footer">
+    <img src="img/logo.svg" alt="Cirenio">
+</div>

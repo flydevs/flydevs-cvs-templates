@@ -9,6 +9,9 @@
     "type": "git",
     "url": "https://github.com/wowthemesnet/bootstrap5-boilerplate.git"
   },
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "start": "gulp",
     "dev": "gulp serve",
